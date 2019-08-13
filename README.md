@@ -1,9 +1,9 @@
 # micro-logger-service
 MicroService for logging and analysis logs in aspnetcore applications
 
-### the project has two solution
+### The project has two solution
 1. an *API (nuget-package)* for send logs to rabbitmq 
-2. a *microservice* for fetching log from *rabbitmq quque* and store them to ElasticSerch
+2. a *microservice* for fetching logs from *rabbitmq* and store them to ElasticSearch
 
 #### Finally you can view and analys the logs with kibana
 
