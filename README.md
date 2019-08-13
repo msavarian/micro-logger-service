@@ -1,5 +1,5 @@
 # micro-logger-service
-MicroService for logging in aspnetcore applications
+MicroService for logging and analysis logs in aspnetcore applications
 
 ### the project has two solution
 1. an *API (nuget-package)* for send logs to rabbitmq 
