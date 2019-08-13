@@ -8,7 +8,11 @@
     <Authors>Mahmoud Savarian</Authors>
     <Company>Mahmoud Savarian</Company>
     <Copyright>Nikamooz NewsRoom</Copyright>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
+    <PackageProjectUrl>https://github.com/sav68/micro-logger-service</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/sav68/micro-logger-service/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/sav68/micro-logger-service</RepositoryUrl>
+    <PackageTags />
   </PropertyGroup>
 
   <ItemGroup>
