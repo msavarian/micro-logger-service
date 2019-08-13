@@ -9,8 +9,11 @@ MicroService for logging and analysis logs in aspnetcore applications
 
 
 ## How to Use API
-Register the API services in startup.cs class file
-
+1. Install nuget package 
+``` 
+Install-Package MicroLogger.API_Serilog.Standard -Version 1.0.5
+```
+2. Register the API services in startup.cs class file
 ```
     public class Startup
     {
@@ -28,7 +31,7 @@ Register the API services in startup.cs class file
             // ...
             // ...
 ```
-and use the APIs in controllers
+3. Use the APIs in controllers
 ```
     public class HomeController : Controller
     {
