@@ -1,0 +1,30 @@
+
+using MicroLogger.API_Serilog.Standard;
+
+
+    public class Startup
+    {
+            services.AddMicroLoggerForRabbitMQ(new MicroLogger.API.ShareCodes.DomainClasses.MessageBrokerInfoInputModel {
+                ClientName="<YourMicroServiceName>",
+                HostName= "127.0.0.1",
+                Port= 5672,
+                Username="guest",
+                Password= "guest"
+            });
+    }
+
+
+    public class HomeController : Controller
+    {
+        private readonly ILogger logger;
+
+        public HomeController(ILogger logger)
+        {
+            this.logger = logger;
+        }
+        public IActionResult Index()
+        {
+            logger.LogInformation("Hey guys, whatsup?");
+            return View();
+        }
+...

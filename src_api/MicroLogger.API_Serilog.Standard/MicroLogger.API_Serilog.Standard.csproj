@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>MicroLogger is an API for an OpenSource Project that we call it NewsRoom</Description>
+    <Authors>Mahmoud Savarian</Authors>
+    <Company>Mahmoud Savarian</Company>
+    <Copyright>Nikamooz NewsRoom</Copyright>
+    <Version>1.0.4</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RabbitHelper\**" />
+    <EmbeddedResource Remove="RabbitHelper\**" />
+    <None Remove="RabbitHelper\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Micro.Serilog.Sinks.RabbitMQ" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="2.0.4" />
+  </ItemGroup>
+
+</Project>
