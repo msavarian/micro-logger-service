@@ -7,13 +7,9 @@
 
 
   <ItemGroup>
+    <PackageReference Include="MicroLogger.API.SerilogToRabbitMQ.Standard" Version="1.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\src_api\MicroLogger.API_Serilog.Standard\MicroLogger.API.SerilogToRabbitMQ.Standard.csproj" />
   </ItemGroup>
 
 </Project>
