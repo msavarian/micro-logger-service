@@ -26,7 +26,7 @@ namespace MicroLogger.API_Serilog.Standard.Log
                     RabbitMqUsername = AppConstants.RabbitMQInfo.Username,
                     RabbitMqPassword = AppConstants.RabbitMQInfo.Password,
 
-                    RabbitMqExchange = AppConstants.RabitMqExchange,
+                    RabbitMqExchangeName = AppConstants.RabitMqExchange,
                     RabbitMqExchangeType = AppConstants.RabitMqExchangeType,
                     RabbitMqRouteKey = AppConstants.RabitMqRouteKey,
                     RabbitMqQueueName = AppConstants.RabitMqQueueName

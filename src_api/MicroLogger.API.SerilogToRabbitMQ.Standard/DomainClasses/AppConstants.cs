@@ -6,7 +6,8 @@ namespace MicroLogger.API.DomainClasses
         public static MessageBrokerInfoInputModel RabbitMQInfo { get; set; }
 
         public readonly static string RabitMqExchange = "MicroLogger-Exchange";
-        public readonly static string RabitMqExchangeType = RabbitMQ.Client.ExchangeType.Direct;
+        public readonly static MicroLib.RabbitMQ.Client.Helper.Standard.Model.ExchangeType 
+            RabitMqExchangeType = MicroLib.RabbitMQ.Client.Helper.Standard.Model.ExchangeType.Direct;
         
         public readonly static string RabitMqQueueName = "MicroLogger-Queue";
         public readonly static string RabitMqRouteKey = "MicroLogger-RouteKey";
