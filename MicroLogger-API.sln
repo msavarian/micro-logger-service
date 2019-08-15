@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src_sample", "src_sample", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp", "src_sample\SampleApp\SampleApp.csproj", "{47B1890F-4EA5-46BC-86B2-113681433280}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroLogger.API_Serilog.Standard", "src_api\MicroLogger.API_Serilog.Standard\MicroLogger.API_Serilog.Standard.csproj", "{D2D7AFD4-1418-40F1-8F49-668CF1918D1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroLogger.API.SerilogToRabbitMQ.Standard", "src_api\MicroLogger.API.SerilogToRabbitMQ.Standard\MicroLogger.API.SerilogToRabbitMQ.Standard.csproj", "{D2D7AFD4-1418-40F1-8F49-668CF1918D1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

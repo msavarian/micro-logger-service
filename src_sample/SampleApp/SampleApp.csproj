@@ -13,7 +13,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src_api\MicroLogger.API_Serilog.Standard\MicroLogger.API_Serilog.Standard.csproj" />
+    <ProjectReference Include="..\..\src_api\MicroLogger.API_Serilog.Standard\MicroLogger.API.SerilogToRabbitMQ.Standard.csproj" />
   </ItemGroup>
 
 </Project>
