@@ -11,7 +11,7 @@ MicroService for logging and analysis logs in aspnetcore applications
 ## How to Use API
 1. Install nuget package 
 ``` 
-Install-Package MicroLogger.API_Serilog.Standard -Version 1.0.5
+Install-Package MicroLogger.API.SerilogToRabbitMQ.Standard
 ```
 2. Register the API services in startup.cs class file
 ```
