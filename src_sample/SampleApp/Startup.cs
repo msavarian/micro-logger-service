@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MicroLogger.API_Serilog.Standard;
+using MicroLogger.API.SerilogToRabbitMQ.Standard;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -40,7 +40,7 @@ namespace WebApplication1
 
 
            
-            services.AddMicroLogger(new MicroLogger.API.DomainClasses.MessageBrokerInfoInputModel
+            services.AddMicroLogger(new MicroLogger.API.SerilogToRabbitMQ.Standard.DomainClasses.MessageBrokerInfoInputModel
             {
                 ClientName = "<YourMicroServiceName(Use4ConnectionName)>",
                 HostName = "127.0.0.1",
