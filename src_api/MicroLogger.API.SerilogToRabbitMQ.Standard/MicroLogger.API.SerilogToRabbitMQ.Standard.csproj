@@ -8,7 +8,7 @@
     <Authors>Mahmoud Savarian</Authors>
     <Company>Mahmoud Savarian</Company>
     <Copyright>Nikamooz NewsRoom</Copyright>
-    <Version>1.0.8</Version>
+    <Version>1.0.9</Version>
     <PackageProjectUrl>https://github.com/sav68/micro-logger-service</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/sav68/micro-logger-service/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/sav68/micro-logger-service</RepositoryUrl>
@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MicroLib.Serilog.Sinks.RabbitMQ" Version="1.0.4" />
+    <PackageReference Include="MicroLib.Serilog.Sinks.RabbitMQ" Version="1.0.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
