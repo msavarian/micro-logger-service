@@ -1,7 +1,7 @@
 ﻿using System;
 using RabbitMQ.Client;
 
-namespace MicroLogger.API.DomainClasses
+namespace MicroLogger.API.SerilogToRabbitMQ.Standard.DomainClasses
 {
     public class MessageBrokerInfoInputModel
     {

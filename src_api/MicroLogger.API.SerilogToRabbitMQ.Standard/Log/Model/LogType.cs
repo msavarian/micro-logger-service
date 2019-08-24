@@ -1,4 +1,4 @@
-﻿namespace MicroLogger.API_Serilog.Standard.Log.Model
+﻿namespace MicroLogger.API.SerilogToRabbitMQ.Standard.Log.Model
 {
     /// <summary>
     /// نوع لاگ

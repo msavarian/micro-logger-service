@@ -1,10 +1,10 @@
 ﻿using Micro.Serilog.Sinks.RabbitMQ;
-using MicroLogger.API.DomainClasses;
-using MicroLogger.API_Serilog.Standard.Log.Base;
-using MicroLogger.API_Serilog.Standard.Log.Model;
+using MicroLogger.API.SerilogToRabbitMQ.Standard.DomainClasses;
+using MicroLogger.API.SerilogToRabbitMQ.Standard.Log.Model;
+using Newtonsoft.Json;
 using Serilog;
 
-namespace MicroLogger.API_Serilog.Standard.Log
+namespace MicroLogger.API.SerilogToRabbitMQ.Standard.Log
 {
     public class MicroLogger : IMicroLogger
     {
@@ -39,27 +39,27 @@ namespace MicroLogger.API_Serilog.Standard.Log
         #region "Helper Methods"        
         public void Debug(LogModel logModel)
         {
-            _serilogLogger.Debug(logModel.Message);
+            _serilogLogger.Debug(JsonConvert.SerializeObject(logModel));
         }
 
         public void Info(LogModel logModel)
         {
-            _serilogLogger.Information(logModel.Message);
+            _serilogLogger.Information(JsonConvert.SerializeObject(logModel));
         }
 
         public void Warn(LogModel logModel)
         {
-            _serilogLogger.Warning(logModel.Message);
+            _serilogLogger.Warning(JsonConvert.SerializeObject(logModel));
         }
 
         public void Error(LogModel logModel)
         {
-            _serilogLogger.Error(logModel.Message);
+            _serilogLogger.Error(JsonConvert.SerializeObject(logModel));
         }
 
         public void Fatal(LogModel logModel)
         {
-            _serilogLogger.Fatal(logModel.Message);
+            _serilogLogger.Fatal(JsonConvert.SerializeObject(logModel));
         }
         #endregion
 

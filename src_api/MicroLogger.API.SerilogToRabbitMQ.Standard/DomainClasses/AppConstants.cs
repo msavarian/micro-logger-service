@@ -1,5 +1,5 @@
 ﻿
-namespace MicroLogger.API.DomainClasses
+namespace MicroLogger.API.SerilogToRabbitMQ.Standard.DomainClasses
 {
     public class AppConstants
     {

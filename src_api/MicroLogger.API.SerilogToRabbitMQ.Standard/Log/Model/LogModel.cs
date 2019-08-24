@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MicroLogger.API_Serilog.Standard.Log.Model
+namespace MicroLogger.API.SerilogToRabbitMQ.Standard.Log.Model
 {
     public class LogModel
     {

@@ -1,6 +1,6 @@
-﻿using MicroLogger.API_Serilog.Standard.Log.Model;
+﻿using MicroLogger.API.SerilogToRabbitMQ.Standard.Log.Model;
 
-namespace MicroLogger.API_Serilog.Standard.Log.Base
+namespace MicroLogger.API.SerilogToRabbitMQ.Standard.Log.Base
 {
     public interface ILogBase
     {
