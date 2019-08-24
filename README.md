@@ -19,7 +19,7 @@ Install-Package MicroLogger.API.SerilogToRabbitMQ.Standard
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMicroLogger(new MicroLogger.API.DomainClasses.MessageBrokerInfoInputModel
+            services.AddMicroLogger(new MicroLogger.API.SerilogToRabbitMQ.Standard.DomainClasses.MessageBrokerInfoInputModel
             {
                 ClientName = "<YourMicroServiceName(Use4ConnectionName)>",
                 HostName = "127.0.0.1",
